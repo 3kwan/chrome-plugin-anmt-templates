@@ -1,0 +1,50 @@
+{
+	"name":"测试动画",
+	"version":"1.0.0",
+	"configs":[{
+		"lable":"时间",
+		"name":"time",
+		"type":"range",
+		"props":{
+			"max":1,
+			"min":0.1
+		}
+	},{
+		"label":"多选",
+		"name":"checkbox",
+		"type":"checkbox",
+		"props":{
+			"options":[{
+				"text":"多选1",
+				"value":"value1"
+			},{
+				"text":"多选2",
+				"value":"value2"
+			},{
+				"text":"多选3",
+				"value":"value3"
+			}]
+		}
+	},{
+		"label":"下拉框",
+		"name":"select",
+		"type":"select",
+		"props":{
+			"options":[{
+				"text":"多选1",
+				"value":"value1"
+			},{
+				"text":"多选2",
+				"value":"value2"
+			},{
+				"text":"多选3",
+				"value":"value3"
+			}]
+		}
+	}],
+	"tamplate":[
+		[".", "{transition:all ", "s;}"],
+		["className", "options.time"]
+	]
+
+}
